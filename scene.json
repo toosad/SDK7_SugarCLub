@@ -1,0 +1,71 @@
+{
+	"worldConfiguration": {
+		"name": "doggo.dcl.eth"
+	},
+	"ecs7": true,
+	"runtimeVersion": "7",
+	"display": {
+		"title": "SugarClub",
+		"description": "SugarClub",
+		"navmapThumbnail": "images/scene-thumbnail.png",
+		"favicon": "favicon_asset"
+	},
+	"owner": "0x474543b99438A978b39D39D8983723Eb5fF9196b",
+	"contact": {
+		"name": "SDK",
+		"email": ""
+	},
+	"main": "bin/index.js",
+	"tags": [],
+	"scene": {
+		"parcels": [
+			"-4,-34",
+			"-3,-34",
+			"-4,-35",
+			"-3,-35",
+			"-2,-34",
+			"-2,-35",
+			"-1,-35",
+			"-1,-34"
+		],
+		"base": "-4,-35"
+	},
+	"spawnPoints": [
+		{
+			"name": "spawn1",
+			"default": true,
+			"position": {
+				"x": [
+					62
+				],
+				"y": [
+					1
+				],
+				"z": [
+					3
+				]
+			},
+			"cameraTarget": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		}
+	],
+	"requiredPermissions": [
+		"ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+		"ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE",
+		"ALLOW_MEDIA_HOSTNAMES"
+	],
+	"allowedMediaHostnames": [
+		"audio.dcl.guru",
+		"stream.rekt.network",
+		"radio.plaza.one",
+		"stream.nightride.fm",
+		"decentraland.org"
+	  ],
+
+	"featureToggles": {
+		"portableExperiences": "disabled"
+	}
+}
